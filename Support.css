@@ -1,0 +1,111 @@
+
+
+footer{
+    position: absolute;
+    visibility: visible;
+    border:5px groove;
+    background-color: cornsilk;
+}
+
+body{
+    margin: 0 4em 0 4em;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569827799&di=466519cf41d4bc0b97f03089f2d07cf0&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.51pptmoban.com%2Fd%2Ffile%2F2018%2F10%2F14%2F1d4d444b09c12d773868791c3f57bf43.jpg");
+}
+
+div img{
+    height: 150px;
+    width: 400px;
+    visibility: visible;
+    border: solid;
+}
+
+div span{
+    width: 800;
+    background-color:ghostwhite;
+}
+
+div h3{
+    font-size: 18px;
+    font-style: normal;
+}
+
+div h2 , div li{
+    text-align: center;
+    color: #F40;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+/*接下来是网络的框架代码*/
+/* 整体框架 */
+#mainStructure{
+    width:100%;
+
+    border:1px solid #000000;
+    
+    height:1000px;
+
+    margin: auto;
+}
+/* 导航条 */
+#Navigator{
+    padding:10px;
+
+    border:1px solid#000000;
+
+   /* background-color:#F40;*/
+}
+/*主体内容*/
+#BodyContent{
+    float:left;width:100%;
+
+    height:1300px;border:1px solid #000000;
+
+    text-align:left;
+
+    margin-right:10px;
+
+    margin-left:10px;
+}
+/*菜单导航*/
+#List{
+    border: #F40 solid 2px;
+
+    float: left;
+
+    margin-right:100px;
+
+    width:35%;border:1px #a2a2ff;
+
+    height:180px;
+
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569827799&di=466519cf41d4bc0b97f03089f2d07cf0&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.51pptmoban.com%2Fd%2Ffile%2F2018%2F10%2F14%2F1d4d444b09c12d773868791c3f57bf43.jpg");
+}
+/*脚注*/
+#list li{
+
+    text-align: left;}
+
+#FootPost{
+    padding:10px;
+
+    border:3px #a2a2ff;
+
+    text-align:center;
+
+    clear:both;
+
+    margin-top:20px;
+}
+
+tr td{
+    text-align: left;
+    font-style: normal;
+    font-size: 16px;
+}
+
+div span{
+    text-align: left;
+    font-size: 16px;
+    color:olive;
+}
