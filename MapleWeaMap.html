@@ -21,23 +21,25 @@
 <body>
 <table>
     <tr>
-        <div id="user" style="width: 400px;height: 100%;float: right;display: inline-block;background-color: burlywood;">
+        <div id="user" style="width: 30%;height: 100%; background-color: burlywood;float: right;display: inline-block">
             <div id="search">
-                <h1 style="font-family: Calibri;color:#ff4400;margin-left:50px">Maple-WeatherMap</h1>
-                <input type="text" id="inp" placeholder="请输入地名，点击地图上的角标可获得当地天气信息" style="width: 300px;margin-left:50px;margin-right:50px;height: 50px">
+                <h1 style="font-family: Calibri;color:#ff4400;margin-left: 20%;">Maple的天气地图</h1>
+                <input type="text" id="inp" placeholder="请输入地名，点击地图上的角标可获得当地天气信息" style="width: 400px;height: 50px;margin-left: 5%;">
             <!--    <button id="but" onclick="ChooseCity()" width="50px" height="20px">确认</button> -->
             <!--      <button id="wea" onclick="wea()" width="50px" height="20px">显示天气信息</button> -->
             </div>
-            <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+            <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:30%;height:auto; display:none;"></div>
             
-            <button id="returnToHomePage" style="margin-top: 660px; width: 400px; height: 40px; background-color:antiquewhite; font-size:20px;text-align: center;color:#ff4400; " type="button" onclick="location.href='https://maplekaka.github.io/bird'" >Return Back To Home</button>
-           
+            <button id="returnToHomePage" style="margin-top:127.16% ;position: relative; width: 100%; height: 40px;
+             font-size: 100%; background-color:antiquewhite; text-align: center;color:#ff4400; " type="button" onclick="location.href='https://maplekaka.github.io/bird'" >Return Back To Home</button>
+            
         </div>
     </tr>
     <tr>
-        <div id="container" style="height:100%;width:77.6%; float: left;display: inline-block"></div>
+        <div id="container" style="height:100%;  width: 70%; float: left;display: inline-block"></div>
     </tr>
 </table>
+</body>
 
 
 
@@ -155,7 +157,8 @@
         local.search(myValue);
     }
 </script>
-</body>
+
 </html>
+
 
 
