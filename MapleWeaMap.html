@@ -4,7 +4,6 @@
   <!--  <link rel="stylesheet" type="text/css" href="main.css"> -->
 
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>IADProJect2_Maple</title>
     <style type="text/css">
@@ -30,10 +29,13 @@
             <!--      <button id="wea" onclick="wea()" width="50px" height="20px">显示天气信息</button> -->
             </div>
             <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+            
+            <button id="returnToHomePage" style="margin-top: 490px; width: 160px; height: 40px; background-color:antiquewhite; text-align: center;color:#ff4400; margin-left: 100px; " type="button" onclick="location.href='https://maplekaka.github.io/bird'" >Return Back To Home</button>
+            <img style="height: 50px; padding-top: 10px;" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3612625395,3492715870&fm=26&gp=0.jpg">
         </div>
     </tr>
     <tr>
-        <div id="container" style="height:100%;width: 975px;float: left;display: inline-block"></div>
+        <div id="container" style="height:100%;width: 1300px; float: left;display: inline-block"></div>
     </tr>
 </table>
 
@@ -42,6 +44,9 @@
 
 <script>
     city_name = "广州";
+    function returnToHomePage{
+
+    }
     function ChooseCity() {
         city_name = document.getElementById("inp").value;
         map.centerAndZoom(city_name);
@@ -155,3 +160,4 @@
 </script>
 </body>
 </html>
+
