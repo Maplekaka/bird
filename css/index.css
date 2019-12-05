@@ -59,14 +59,12 @@
 }
 .main .main-top .title{
     font-size:44px;
-    font-family:PingFang-SC-Semibold;
     font-weight:400;
     color:rgba(35,24,22,1);
     text-align: center;
 }
 .main .main-top .desc {
     font-size:20px;
-    font-family:PingFang-SC-Regular;
     font-weight:400;
     color:rgba(74,74,74,1);
     text-align: center;
@@ -75,7 +73,6 @@
 .main .main-top .more {
     width: 100%;
     font-size:16px;
-    font-family:PingFang-SC-Semibold;
     font-weight:600;
     color:rgba(35,24,22,1);
     text-decoration: none;
@@ -108,13 +105,11 @@
 }
 .main .main-center .item .title {
     font-size:34px;
-    font-family:PingFang-SC-Medium;
     font-weight:500;
     color:rgba(255,255,255,1);
 }
 .main .main-center .item .desc {
     font-size:20px;
-    font-family:PingFang-SC-Regular;
     /* font-weight:500; */
     color:rgba(255,255,255,1);
     line-height:34px;
@@ -130,13 +125,11 @@
 }
 .main .main-bottom .top .title{
     font-size:31px;
-    font-family:PingFang-SC-Semibold;
     font-weight:400;
     color:rgba(35,24,22,1);
 }
 .main .main-bottom .top .desc {
     font-size:16px;
-    font-family:PingFang-SC-Regular;
     font-weight:400;
     color:rgba(74,74,74,1);
     line-height:28px;
@@ -152,13 +145,11 @@
 }
 .main .main-bottom .bottom .title{
     font-size:44px;
-    font-family:PingFang-SC-Medium;
     /* font-weight:500; */
     color:rgba(255,255,255,1);   
 }
 .main .main-bottom .bottom .desc{
     font-size:20px;
-    font-family:PingFang-SC-Medium;
     font-weight:400;
     color:rgba(255,255,255,1);
 }
@@ -166,7 +157,6 @@
     display: inline-block;
     vertical-align: middle;
     font-size:16px;
-    font-family:PingFang-SC-Medium;
     font-weight:500;
     color:rgba(255,255,255,1);
     margin-top: 93px;
@@ -220,14 +210,12 @@
     }
     .main .main-top .title{
         font-size:22px;
-        font-family:PingFang-SC-Semibold;
         font-weight:600;
         color:rgba(35,24,22,1);
         text-align: center;
     }
     .main .main-top .desc {
         font-size:10px;
-        font-family:PingFang-SC-Regular;
         font-weight:400;
         color:rgba(74,74,74,1);
         text-align: center;
@@ -235,7 +223,6 @@
     }
     .main .main-top .more {
         font-size:14px;
-        font-family:PingFang-SC-Semibold;
         font-weight:600;
         color:rgba(35,24,22,1);
         text-decoration: none;
@@ -297,13 +284,11 @@
     }
     .main .main-center .item .title {
         font-size:17px;
-        font-family:PingFang-SC-Medium;
         font-weight:500;
         color:rgba(255,255,255,1);
     }
     .main .main-center .item .desc {
         font-size:14px;
-        font-family:PingFang-SC-Regular;
         font-weight:500;
         color:rgba(255,255,255,1);
     }
@@ -320,7 +305,6 @@
     }
     .main .main-bottom .top .title{
         font-size:20px;
-        font-family:PingFang-SC-Semibold;
         font-weight:600;
         color:#231816;
     }
@@ -334,7 +318,6 @@
     .main .main-bottom .top .more {
         display: inline-block;
         font-size:14px;
-        font-family:PingFang-SC-Regular;
         font-weight:400;
         color:rgba(35,24,22,1);
         vertical-align: middle;
@@ -347,7 +330,6 @@
     }
     .main .main-bottom .bottom .title{
         font-size:16px;
-        font-family:PingFang-SC-Medium;
         font-weight:500;
         color:rgba(255,255,255,1);
         margin: 0;
@@ -396,7 +378,6 @@
     }
     .main .main-top .desc {
         font-size:12px;
-        font-family:PingFang-SC-Regular;
         font-weight:400;
         color:rgba(74,74,74,1);
         text-align: center;
@@ -404,7 +385,6 @@
     }
     .main .main-top .more {
         font-size:14px;
-        font-family:PingFang-SC-Semibold;
         font-weight:600;
         color:rgba(35,24,22,1);
         text-decoration: none;
@@ -467,13 +447,11 @@
     }
     .main .main-center .item .title {
         font-size:17px;
-        font-family:PingFang-SC-Medium;
         font-weight:500;
         color:rgba(255,255,255,1);
     }
     .main .main-center .item .desc {
         font-size:14px;
-        font-family:PingFang-SC-Regular;
         font-weight:500;
         color:rgba(255,255,255,1);
         line-height: 20px;
@@ -491,13 +469,11 @@
     }
     .main .main-bottom .top .title{
         font-size:20px;
-        font-family:PingFang-SC-Semibold;
         font-weight:600;
         color:#231816;
     }
     .main .main-bottom .top .desc {
         font-size:12px;
-        font-family:PingFang-SC-Regular;
         font-weight:400;
         color:rgba(74,74,74,1);
         line-height:21px;
@@ -505,7 +481,6 @@
     .main .main-bottom .top .more {
         display: inline-block;
         font-size:14px;
-        font-family:PingFang-SC-Regular;
         font-weight:400;
         color:rgba(35,24,22,1);
     }
@@ -517,7 +492,6 @@
     }
     .main .main-bottom .bottom .title{
         font-size:16px;
-        font-family:PingFang-SC-Medium;
         font-weight:500;
         color:rgba(255,255,255,1);
         margin: 0;
